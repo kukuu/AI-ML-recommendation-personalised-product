@@ -44,7 +44,7 @@
          │ (Access Token)       │ (JWT)
          ▼                      ▼
 ┌──────────────────┐    ┌──────────────────┐
-│   USER STORE     │    │    REST API      │
+│   USER STORE     │    │  REST API/KAFKA  │
 │                  │    │                  │
 └──────────────────┘    └──────────────────┘
                                 │
@@ -66,7 +66,7 @@
 
 ```
 
-## Low LevelArchitecture
+## Low Level Architecture
 
 ### Core Components
 

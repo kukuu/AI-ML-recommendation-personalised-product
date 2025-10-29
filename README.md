@@ -213,5 +213,19 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 ## Real Time tracking
 
+- The AI/ML Platform is the intelligent core that processes data to generate insights and predictions. Its primary role is to move the system from being **reactive** (" say show product X") to being **proactive** ("we recommend product X for you") enabling hyper-personalization.
+
+- Real-time tracking events flow through Kafka to the AI platform, which updates recommendation models. Content Service syncs with Headless CMS via webhooks, and all services leverage Redis for caching to reduce latency.
+
+
+- Content is Created in Headless CMS: A marketer creates a new promotional campaign  in say  Contentful, targeting students.
+
+- Content is Served via Content Service: The Content Service fetches the promotion and makes it available to the API Gateway.
+
+- AI/ML Informs the Personalization Logic: Separately, the AI/ML platform has identified that a specific user  is a high-potential candidate for this promotion. This intelligence is embedded in the Recommendation Engine.
+
+
+## What happens next when a user logs in:
+
 https://github.com/kukuu/AI-recommendation-real-time-tracking/blob/main/README.md
 

@@ -1,13 +1,8 @@
 # Personalised Product Recommendations Architecture
 
-## MACH-based Cloud Native Solution for Specsavers
+**MACH-based Cloud Native Solution for Specsavers**
 
-**Microservices + API-first + Cloud-native + Headless**
-  - Microservices: Independent, single-purpose services
 
-  - API-first: All functionality exposed via APIs
-  - Cloud-native: SaaS, scalable, resilient
-  - Headless: Frontend decoupled from backend
 
 ## Clarification Questions
 

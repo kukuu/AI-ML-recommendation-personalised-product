@@ -1,4 +1,3 @@
-# AI-ML-recommendation-personalised-product
 # Personalised Product Recommendations Architecture
 
 ## MACH-based Cloud Native Solution for Specsavers

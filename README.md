@@ -152,7 +152,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 ```
 
 ```
-┌┌─────────────────────────────────────────────────────────────────────────────┐
+      ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           SPECSAVERS RECOMMENDATION PLATFORM                │
 │                        Microservices Architecture - MACH Based              │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -190,10 +190,13 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
     │  │  USER       │  │  PRODUCT    │  │   VECTOR    │  │  EVENT      │  │
     │  │ PROFILES    │  │ CATALOG DB  │  │  DATABASE   │  │ STREAMING   │  │
     │  │  DATABASE   │  │             │  │             │  │   (Kafka)   │  │
-    │  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────┘  │
-    │                                                                      │
+    │  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘  │
+    │         │                │                │                │         │
+    │         │                │                │                │         │
+    │         │                │                │                │         │
+    │         ▼                ▼                ▼                ▼         │
     │  ┌───────────────────────────────────────────────┐  ┌─────────────┐  │         
-    │  │           AI/ML PLATFORM                      │◄-│  CONTENT    │  │         
+    │  │           AI/ML PLATFORM                      │◄►│  CONTENT    │  │         
     │  │                                               │  │  SERVICE    │  │
     │  └───────────────────────────────────────────────┘  └─────────────┘  │
     │                                                                      │
@@ -207,7 +210,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
     │ • Content      │                                  │   Features      │
     │   Fragments    │                                  │ • Batch         │
     │ • Promotions   │                                  │   Features      │
-    └────────────────┘                                  └─────────────────┘
+    └────────────────┘                                  └─────────────────┘                        
 
 ```
 

@@ -154,14 +154,10 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 ### Data Layer
 
-- Event Streaming: Real-time user behavior tracking
-
-- Product Database: Complete catalog with attributes
-
 - User Profiles: Customer preferences and history
-
+- Product Database: Complete catalog with attributes
 - Vector Database: Similarity search for recommendations
-
+- Event Streaming: Real-time user behavior tracking
 
 ## Data Flow
                      

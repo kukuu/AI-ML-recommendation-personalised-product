@@ -217,5 +217,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 - Feature Store: Consolidated data for ML models
 
 
+## Real Time tracking
 
+https://github.com/kukuu/AI-recommendation-real-time-tracking/blob/main/README.md
 

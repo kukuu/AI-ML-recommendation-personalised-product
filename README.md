@@ -92,67 +92,10 @@
 Services communicate via **REST APIs for synchronous requests** and **Apache Kafka for asynchronous event streaming**. The **API Gateway (GraphQL/REST) routes client requests**, while **services** exchange data through defined **contracts**.
 
 
+
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           SPECSAVERS RECOMMENDATION PLATFORM                │
-│                        Microservices Architecture - MACH Based              │
-└─────────────────────────────────────────────────────────────────────────────┘
-
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│   WEB APP   │  │ MOBILE APP  │  │ IN-STORE    │  │   EMAIL     │
-│             │  │             │  │ TABLETS     │  │  SERVICE    │
-└──────┬──────┘  └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
-       │                │                │                │
-       └────────────────┼────────────────┼────────────────┘
-                        │                │
-                 ┌──────▼────────────────▼──────┐
-                 │         API GATEWAY          │                                                     
-                 │  ┌────────────────────────┐  │
-                 │  │ GraphQL • REST • Auth  │  │
-                 │  │ Rate Limiting • Caching│  │
-                 │  └────────────────────────┘  │
-                 └───────────────┬──────────────┘
-                                 │
-    ┌────────────────────────────┼─────────────────────────────────────────┐
-    │                      MICROSERVICES LAYER                             │
-    │                                                                      │
-    │  ┌─────────────┐  ┌─────────────┐  ┌─────────────-┐  ┌─────────────┐ │
-    │  │   USER      │  │  PRODUCT    │  │RECOMMENDATION│  │ BEHAVIOR    │ │
-    │  │  PROFILE    │  │  CATALOG    │  │   ENGINE     │  │ TRACKING    │ │
-    │  │ SERVICE     │  │ SERVICE     │  │              │  │ SERVICE     │ │
-    │  └──────┬──────┘  └──────┬──────┘  └──────┬──────-┘  └─────┬──────-┘ │
-    │         │                │                │                │         │
-    └─────────┼────────────────┼────────────────┼────────────────┼────────-┘
-              │                │                │                │
-    ┌─────────▼────────────────▼────────────────▼────────────────▼─────────┐
-    │                        DATA & AI/ML LAYER                            │
-    │                                                                      │
-    │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  │
-    │  │  USER       │  │  PRODUCT    │  │   VECTOR    │  │  EVENT      │  │
-    │  │ PROFILES    │  │ CATALOG DB  │  │  DATABASE   │  │ STREAMING   │  │
-    │  │  DATABASE   │  │             │  │             │  │   (Kafka)   │  │
-    │  └─────────────┘  └─────────────┘  └─────────────┘  └──────┬──────┘  │
-    │                                                            │         │
-    │  ┌─────────────┐                                    ┌──────▼──────┐  │
-    │  │   AI/ML     │                                    │  CONTENT    │  │
-    │  │  PLATFORM   │                                    │  SERVICE    │  │
-    │  └──────┬──────┘                                    └──────┬──────┘  │
-    │         │                                                  │         │
-    └─────────┼──────────────────────────────────────────────────┼───────--┘
-              │                                                  │
-    ┌─────────▼──────┐                                  ┌────────▼────────┐
-    │  HEADLESS CMS  │                                  │   FEATURE       │
-    │                │                                  │     STORE       │
-    │ • Contentful   │                                  │                 │
-    │ • Storyblok    │                                  │ • Real-time     │
-    │ • Content      │                                  │   Features      │
-    │   Fragments    │                                  │ • Batch         │
-    │ • Promotions   │                                  │   Features      │
-    └────────────────┘                                  └─────────────────┘
-```
-
-```
-      ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           SPECSAVERS RECOMMENDATION PLATFORM                │
 │                        Microservices Architecture - MACH Based              │
 └─────────────────────────────────────────────────────────────────────────────┘

@@ -218,7 +218,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 - Real-time tracking events flow through Kafka to the AI platform, which updates recommendation models. Content Service syncs with Headless CMS via webhooks, and all services leverage Redis for caching to reduce latency.
 
 
-- Content is Created in Headless CMS: A marketer creates a new promotional campaign  in say  Contentful, targeting students.
+- Content is Created in Headless CMS: As example  marketer creates a new promotional campaign  in say  Contentful, targeting students.
 
 - Content is Served via Content Service: The Content Service fetches the promotion and makes it available to the API Gateway.
 

@@ -7,7 +7,7 @@
 - How to optimise requent price calculations.
 
 
-**Resolving region-specific pricing**
+**Scalable Code Architecture to Resolving Region Specific Pricing**
 
 ```
 interface RegionalPricing {

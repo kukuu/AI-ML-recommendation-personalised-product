@@ -247,5 +247,9 @@ Key challenges include data consistency across distributed services, mitigated t
 
 The architecture ensures  a personalised product recommendations architecture and data management while maintaining data integrity across all microservices for real-time personalized recommendations.
 
+.....
+
+eg. Real-time tracking  (using Kafka as mentioned) : https://github.com/kukuu/FIFA-SaaS-NotificationPlatform-Qatar-WorldCup-2022/blob/main/README.md
+
 
 _Alexander Adu-Sarkodie_

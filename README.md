@@ -251,7 +251,7 @@ https://github.com/kukuu/AI-ML-recommendation-personalised-product/blob/main/han
 
 The architecture ensures  a personalised product recommendations architecture and data management while maintaining data integrity across all microservices for real-time personalized recommendations.
 
-.....
+........
 
 - eg. **Real-time tracking  (using Kafka as mentioned)** :
 

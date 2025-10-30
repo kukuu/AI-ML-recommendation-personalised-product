@@ -241,6 +241,10 @@ Key challenges include data consistency across distributed services, mitigated t
 
 - Separation of content management from application logic
 
+### Handling Regional Pricing
+
+https://github.com/kukuu/AI-ML-recommendation-personalised-product/blob/main/handling-regional-pricing-with-configs.md
+
 ## Conclusion
 
  The AI/ML platform consumes user, product, and behavioral data to create models that enable personalized recommendations and intelligent search.

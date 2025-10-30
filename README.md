@@ -224,8 +224,24 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 - AI/ML Informs the Personalization Logic: Separately, the AI/ML platform has identified that a specific user  is a high-potential candidate for this promotion. This intelligence is embedded in the Recommendation Engine.
 
+### Benefits for Specsavers:
 
-## What happens next when a user logs in:
+- Marketing teams can quickly update promotional banners for frames, lens offers, or seasonal campaigns
+
+- Consistent content across all channels (web, mobile, in-store)
+
+- A/B testing of promotional content alongside product recommendations
+
+- Separation of content management from application logic
+
+## Conclusion:
+
+ The AI/ML platform consumes user, product, and behavioral data to create models that enable personalized recommendations and intelligent search.
+
+The architecture ensures  a personalised product recommendations architecture and data management while maintaining data integrity across all microservices for real-time personalized recommendations.
+
+
+## Targeting a potential Customer:
 
 https://github.com/kukuu/AI-recommendation-real-time-tracking/blob/main/README.md
 

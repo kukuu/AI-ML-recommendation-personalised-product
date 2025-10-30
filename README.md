@@ -213,7 +213,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 ## Real Time tracking
 
-- The AI/ML Platform is the intelligent core that processes data to generate insights and predictions. Its primary role is to move the system from being **reactive** (" say show product X") to being **proactive** ("we recommend product X for you") enabling hyper-personalization.
+- The AI/ML Platform is the intelligent core that processes data to generate insights and predictions. Its primary role is to move the system from being **reactive** to being **proactive**  enabling hyper-personalization.
 
 - Real-time tracking events flow through Kafka to the AI platform, which updates recommendation models. Content Service syncs with Headless CMS via webhooks, and all services leverage Redis for caching to reduce latency.
 

@@ -70,7 +70,7 @@
 
 ### Core Components
 
-- Microservices Layer
+- Microservices Layer (Business Domains)
 
   - User Profile Service: Customer preferences and history
 

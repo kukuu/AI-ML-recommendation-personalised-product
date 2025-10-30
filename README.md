@@ -202,7 +202,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
                   └────────────────┘
 
 
-### AI/ML Layer
+### AI/ML Layer (core responsibilities)
 
 - Real-time Inference: Immediate recommendation generation
 

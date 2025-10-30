@@ -224,14 +224,14 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 - AI/ML Informs the Personalization Logic: Separately, the AI/ML platform has identified that a specific user  is a high-potential candidate for this promotion. This intelligence is embedded in the Recommendation Engine.
 
-## Security & Governance:
+## Security & Governance
 OAuth2/JWT authentication secures API access, while TLS 1.3 encrypts data in transit. Role-based access control (RBAC) governs data permissions, and GDPR compliance ensures customer data protection. Centralized monitoring (Prometheus/Grafana) and API gateway rate limiting maintain system governance and prevent abuse.
 
-## Challenges & Mitigation:
+## Challenges & Mitigation
 Key challenges include data consistency across distributed services, mitigated through event sourcing and eventual consistency; service orchestration complexity, addressed with Kubernetes and service mesh; and potential latency in real-time recommendations, solved with Redis caching and API gateway optimization.
 
 
-### Benefits for Specsavers:
+### Benefits for Specsavers
 
 - Marketing teams can quickly update promotional banners for frames, lens offers, or seasonal campaigns
 
@@ -241,7 +241,7 @@ Key challenges include data consistency across distributed services, mitigated t
 
 - Separation of content management from application logic
 
-## Conclusion:
+## Conclusion
 
  The AI/ML platform consumes user, product, and behavioral data to create models that enable personalized recommendations and intelligent search.
 

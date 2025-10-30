@@ -16,7 +16,7 @@
 
 - What are the budget and timeline constraints for implementing this personalized recommendation system?
 
-## Key PILLARS 
+## Key Pillars 
 
 - **Scalability**: Independent scaling of microservices ensures that services can handle their unique workloads without impacting others.
 - **Speed**: Optimized data flows and caching strategies enable real-time recommendations and fast response times.

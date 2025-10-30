@@ -109,3 +109,5 @@ const discount = regionalStrategy.calculate(cartItems, discountConfig, 'EU');
 - How to handle stacking multiple discounts.
 - Making the system resilient to bad discount data.
 - How to optimise requent price calculations.
+
+**Personalised Product Recommendations Architecture**

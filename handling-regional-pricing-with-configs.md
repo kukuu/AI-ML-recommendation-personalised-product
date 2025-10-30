@@ -1,5 +1,14 @@
 # Handling Regional Pricing 
 
+**💡 Clarification  Questions:**
+
+- How to handle stacking multiple discounts.
+- Making the system resilient to bad discount data.
+- How to optimise requent price calculations.
+
+
+**Resolving region-specific pricing**
+
 ```
 interface RegionalPricing {
   region: string;
@@ -104,11 +113,7 @@ const regionalStrategy = new RegionalDiscountStrategy(regionalPricingConfig);
 const discount = regionalStrategy.calculate(cartItems, discountConfig, 'EU');
 
 ```
-**💡 Follow-up Questions:**
 
-- How to handle stacking multiple discounts.
-- Making the system resilient to bad discount data.
-- How to optimise requent price calculations.
 
 ## Personalised Product Recommendations Architecture**
 https://github.com/kukuu/AI-ML-recommendation-personalised-product/blob/main/README.md

@@ -249,7 +249,8 @@ The architecture ensures  a personalised product recommendations architecture an
 
 .....
 
-eg. Real-time tracking  (using Kafka as mentioned) : https://github.com/kukuu/FIFA-SaaS-NotificationPlatform-Qatar-WorldCup-2022/blob/main/README.md
+- eg. **Real-time tracking  (using Kafka as mentioned)** :
+https://github.com/kukuu/FIFA-SaaS-NotificationPlatform-Qatar-WorldCup-2022/blob/main/README.md
 
 
 _Alexander Adu-Sarkodie_

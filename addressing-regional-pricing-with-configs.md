@@ -1,4 +1,4 @@
-# Addressing Regional Pricing
+# Handling Regional Pricing 
 
 ```
 interface RegionalPricing {
@@ -104,3 +104,8 @@ const regionalStrategy = new RegionalDiscountStrategy(regionalPricingConfig);
 const discount = regionalStrategy.calculate(cartItems, discountConfig, 'EU');
 
 ```
+**💡 Follow-up Questions:**
+
+- How to handle stacking multiple discounts.
+- Making the system resilient to bad discount data.
+- How to optimise requent price calculations.

@@ -114,6 +114,7 @@ const discount = regionalStrategy.calculate(cartItems, discountConfig, 'EU');
 
 ```
 
+**Note** "_DiscountStrategy_" and others are addressed outside the scope of this snippet.
 
 ## Personalised Product Recommendations Architecture
 https://github.com/kukuu/AI-ML-recommendation-personalised-product/blob/main/README.md

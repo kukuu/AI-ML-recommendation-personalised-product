@@ -26,3 +26,7 @@ class DiscountEngine {
 }
 
 ```
+
+## Handling Regional Pricing
+
+https://github.com/kukuu/AI-ML-recommendation-personalised-product/blob/main/handling-regional-pricing-with-configs.md

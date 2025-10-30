@@ -248,7 +248,3 @@ Key challenges include data consistency across distributed services, mitigated t
 The architecture ensures  a personalised product recommendations architecture and data management while maintaining data integrity across all microservices for real-time personalized recommendations.
 
 
-## Targeting a Potential Customer:
-
-https://github.com/kukuu/AI-recommendation-real-time-tracking/blob/main/README.md
-

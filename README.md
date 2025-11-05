@@ -1,6 +1,6 @@
 # Personalised Product Recommendations Architecture
 
-**MACH-based Cloud Native Solution for Specsavers**
+**MACH-based Cloud Native Solution**
 
 
 

@@ -90,7 +90,7 @@ Services communicate via **REST APIs for synchronous requests** and **Apache Kaf
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                           SPECSAVERS RECOMMENDATION PLATFORM                │
+│                           RECOMMENDATION PLATFORM                           │
 │                        Microservices Architecture - MACH Based              │
 └─────────────────────────────────────────────────────────────────────────────┘
 

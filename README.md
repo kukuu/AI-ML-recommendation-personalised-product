@@ -8,7 +8,7 @@
 
 - What are the primary business goals for this feature - conversion uplift, AOV increase, or customer retention?
 
-- How will this system integrate with existing Specsavers systems like e-commerce, CRM, and inventory management?
+- How will this system integrate with existing systems like e-commerce, CRM, and inventory management?
 
 - What are the data privacy requirements and GDPR compliance needs for handling customer data?
 
